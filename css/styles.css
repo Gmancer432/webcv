@@ -1,0 +1,9 @@
+body {
+  background-color: azure;
+}
+hr {
+  border-style: dotted none none none;
+  border-width: medium;
+  width: 10%;
+  margin-left: 0;
+}

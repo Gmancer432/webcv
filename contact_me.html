@@ -3,11 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>My Contact Details</h1>
     <p>Phone: 123-456-7890</p>
     <p>Fictional mailing address</p>
     <p>Email: <a href="mailto:seanrichens@gmail.com">seanrichens@gmail.com</a></p>
+    <hr>
+    <p>You can use the form to send me a message (WIP)</p>
+    <form action="mailto:seanrichens@gmail.com" method="post">
+      <p>
+        <label for="">Name: </label>
+        <input type="text" name="Name" value="">
+      </p>
+      <p>
+        <label for="">Email: </label>
+        <input type="email" name="Email" value="">
+      </p>
+      <p>
+        <label for="">Message: </label><br>
+        <textarea name="Message" rows="8" cols="80"></textarea><br>
+      </p>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
   </body>
 </html>
