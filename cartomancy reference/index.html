@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cartomancy Reference</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <h2 id="h-cartomancy-card-meanings"><strong>Cartomancy Card Meanings</strong></h2>
+
+  <select class="suit" name="suit" id="suit" size="1">
+    <option value="spades">spades</option>
+    <option value="hearts">hearts</option>
+    <option value="clubs">clubs</option>
+    <option value="diamonds">diamonds</option>
+  </select>
+  <select class="rank" name="rank" id="rank" size="1">
+    <option value="0">a</option>
+    <option value="1">2</option>
+    <option value="2">3</option>
+    <option value="3">4</option>
+    <option value="4">5</option>
+    <option value="5">6</option>
+    <option value="6">7</option>
+    <option value="7">8</option>
+    <option value="8">9</option>
+    <option value="9">10</option>
+    <option value="10">j</option>
+    <option value="11">q</option>
+    <option value="12">k</option>
+  </select>
+  <script type="text/javascript" src="code.js"></script>
+  <button type="button" name="Select" onclick="getReading();">Select</button>
+
+
+  <div id="heartsBlock">
+    <h3 id="h-hearts"><strong>Hearts</strong></h3>
+    <p>A well recognized symbol of our feelings, the heart’s suit relates to things that are very close to you. These playing cards provide insight into your home, family, and emotions. How many hearts are in a deck of cards? 13.&nbsp;</p>
+    <ul>
+      <li id="a_hearts"><strong>Ace of Hearts:</strong> A new beginning, such as a new relationship, marriage, or some good news for yourself or someone close</li>
+      <li id="2_hearts"><strong>2 of Hearts:</strong> This union of hearts means it’s time to spend some quality time with your loved ones</li>
+      <li id="3_hearts"><strong>3 of Hearts: </strong>Like a third wheel, this represents indecision or a lack of commitment in a relationship</li>
+      <li id="4_hearts"><strong>4 of Hearts: </strong>A stable, secure, and committed romantic relationship or marriage</li>
+      <li id="5_hearts"><strong>5 of Hearts:</strong> Major change is coming to your home or family, such as a divorce, a loved one moving away, or a new home</li>
+      <li id="6_hearts"><strong>6 of Hearts:</strong> A time of peace and harmony where you can work well with others to achieve your goals and overcome obstacles</li>
+      <li id="7_hearts"><strong>7 of Hearts: </strong>A partner or friend who is undependable and will let you down</li>
+      <li id="8_hearts"><strong>8 of Hearts:</strong> An upcoming social event will provide you with important business or romantic connections with someone that you meet there</li>
+      <li id="9_hearts"><strong>9 of Hearts:</strong> Someone is wishing for more in a relationship, such as having a baby or taking your relationship to the next level</li>
+      <li id="10_hearts"><strong>10 of Hearts: </strong>Good news is coming, probably at a large gathering of people at a wedding or party</li>
+      <li id="j_hearts"><strong>Jack of Hearts: </strong>Your lover or best friend—can also signify a couple when it appears with the Queen of Hearts</li>
+      <li id="q_hearts"><strong>Queen of Hearts: </strong>A female lover or fantasy, which may mean marriage—also may represent a mother or a pregnant woman</li>
+      <li id="k_hearts"><strong>King of Hearts: </strong>Represents an influential man who is romantic and affectionate, but also emotional—could be a father</li>
+    </ul>
+  </div>
+
+  <div id="diamondsBlock">
+    <h3 id="h-diamonds"><strong>Diamonds</strong></h3>
+    <p>Diamonds are prized for their monetary value. Likewise, playing cards in this suit relate to your money and finances. How many diamonds are in a deck of cards? 13.&nbsp;</p>
+    <ul>
+      <li><strong>Ace of Diamonds:</strong> An important message is coming that will relate to your love or business</li>
+      <li><strong>2 of Diamonds:</strong> Good news about your finances or investments is coming soon</li>
+      <li><strong>3 of Diamonds: </strong>Represents indecisiveness regarding money, which may lead to arguments and legal issues</li>
+      <li><strong>4 of Diamonds: </strong>A reminder that financial responsibility is necessary to achieve stability and prosperity</li>
+      <li><strong>5 of Diamonds: </strong>A financial change is coming—this may be a positive change (such as getting a new job) or a negative change (like an unexpected expense)</li>
+      <li><strong>6 of Diamonds: </strong>There’s a need to take financial responsibility over your budget, investments, or debts</li>
+      <li><strong>7 of Diamonds:</strong> A warning to be careful with your investments. Financial troubles are on the horizon</li>
+      <li><strong>8 of Diamonds:</strong> An unexpected windfall is coming your way—consider a budget and plan for savings</li>
+      <li><strong>9 of Diamonds: </strong>An upcoming expense, such as repairs, bills, or a large purchase</li>
+      <li><strong>10 of Diamonds: </strong>This card represents a big financial success is coming</li>
+      <li><strong>Jack of Diamonds:</strong> The bearer of bad news</li>
+      <li><strong>Queen of Diamonds: </strong>A sophisticated woman who loves to party and gossip</li>
+      <li><strong>King of Diamonds: </strong>A powerful and successful businessman</li>
+    </ul>
+  </div>
+
+  <div id="clubsBlock">
+    <h3 id="h-clubs"><strong>Clubs</strong></h3>
+    <p>The suit of clubs is generally a good sign in a cartomancy reading. Most of the playing cards relate to positive experiences coming your way. How many clubs are in a deck of cards? 13.</p>
+    <ul>
+      <li><strong>Ace of Clubs:</strong> A thirst for knowledge or a special talent that you have</li>
+      <li><strong>2 of Clubs:</strong> A reminder of the importance of communication to avoid confrontations and disappointment</li>
+      <li><strong>3 of Clubs:</strong> Immense creativity, or the stress of the creative process</li>
+      <li><strong>4 of Clubs: </strong>Mental stability that may lead to a great adventure</li>
+      <li><strong>5 of Clubs:</strong> An indication that it’s time to make a change and learn something new, such as a new hobby or sport</li>
+      <li><strong>6 of Clubs:</strong> Trust your intuition to receive great benefits</li>
+      <li><strong>7 of Clubs: </strong>Represents feeling confined or trapped, usually in regards to a romantic relationship</li>
+      <li><strong>8 of Clubs:</strong> Indicates a time of confusion that can lead to significant problems in your relationships if things are not resolved</li>
+      <li><strong>9 of Clubs:</strong> Represents the completion of a project or phase of your life</li>
+      <li><strong>10 of Clubs:</strong> You’ll be traveling soon</li>
+      <li><strong>Jack of Clubs:</strong> An honest and trustworthy person who may be your friend</li>
+      <li><strong>Queen of Clubs:</strong> A charismatic woman who is in a position of power</li>
+      <li><strong>King of Clubs:</strong> A man of integrity who is a generous and loyal friend</li>
+    </ul>
+  </div>
+
+  <div id="spadesBlock">
+    <h3 id="h-spades"><strong>Spades</strong></h3>
+    <p>In a cartomancy reading, playing cards with the spades suit reveal upcoming struggles in your life that you will have to deal with.</p>
+    <ul>
+      <li><strong>Ace of Spades: </strong>A time of significant change—one thing will come to an end to make room for something new</li>
+      <li><strong>2 of Spades:</strong> A difficult situation or decision may cause division between you and a loved one or friend</li>
+      <li><strong>3 of Spades: </strong>The three spades represent tears from a stressful situation involving bad news, indecision, fear, or your job</li>
+      <li><strong>4 of Spades: </strong>Stability will soon return to your workplace or health—the troubling times are almost over</li>
+      <li><strong>5 of Spades: </strong>You will soon be moving on and leaving behind what you currently know, such as a new job, a relocation, or the end of your relationship</li>
+      <li><strong>6 of Spades:</strong> A warning that fate will soon strike and impact you, your work, or your finances</li>
+      <li><strong>7 of Spades:</strong> Represents the loss of a friend or another significant person in your life due to a disagreement or problem</li>
+      <li><strong>8 of Spades:</strong> Indicates that obstacles at work may soon put you at a crossroads where you will need to make an important decision</li>
+      <li><strong>9 of Spades:</strong> A sign that there will soon be a loss or ending in your life, possibly the death of someone close to you</li>
+      <li><strong>10 of Spades:</strong> Worry and grief that may be the result of health problems, fear, or bad news</li>
+      <li><strong>Jack of Spades:</strong>A negative person in your life may betray you or hold you back</li>
+      <li><strong>Queen of Spades: </strong>Represents a cruel woman who is extremely manipulative and malicious</li>
+      <li><strong>King of Spades: </strong>Represents an authoritative man who may create trouble in a relationship</li>
+    </ul>
+  </div>
+
+  <hr />
+  
+  <h2 id="h-how-is-cartomancy-different-from-tarot"><strong>How Is Cartomancy Different From Tarot?&nbsp;</strong></h2>
+  <p>Besides the deck, the main difference between cartomancy readings and tarot readings is that the cartomancy cards have a more clear cut meaning. Tarot cards like The Devil or The High Priestess can have <a
+      href="https://www.keen.com/articles/tarot/how-to-read-bad-tarot-cards-positively">hidden meanings</a>.&nbsp;</p>
+  <p>Cartomancy readings are great for giving literal questions to answers. Tarot tends to show potential outcomes. One isn’t better than the other, the choice is just preference in how you like getting answers.&nbsp;</p>
+  <h2 id="h-cartomancy-card-layouts-interpretations"><strong>Cartomancy Card Layouts &amp; Interpretations&nbsp;</strong></h2>
+  <p>In cartomancy, each number, suit, and face card have a specific meaning (however, the Joker card is not always used.)&nbsp;</p>
+  <p>For example, the Ace of Hearts represents a new beginning, such as a new relationship or job opportunity and the 7 of Spades means the loss of a friend or another significant person in your life due to a disagreement or problem.</p>
+  <p>The most popular method of cartomancy technique is the Wheel of Fortune. The reader randomly removes cards and interprets meaning based on the pick order.&nbsp;</p>
+  <h3 id="h-card-layouts"><strong>Card Layouts</strong></h3>
+  <p>Many spreads are used in cartomancy, ranging from a single card reading to 21-card spreads. Usually, spreads are multiples of 3 (typically 3, 9, or 21), so three sections can represent past, present, and future. Depending on the size of the
+    layout, cartomancy can provide you with a quick answer or deep life insight.</p>
+  <h3 id="h-card-interpretations"><strong>Card Interpretations</strong></h3>
+  <p>Cartomancy readings depend on the suit and value of the revealed card. The suit depicts the broader meaning or life category of a card. Face cards are people in your life. Number cards are life events in your near future.&nbsp;</p>
+  <p>Here is a list of what each card in a standard 52-card deck means in a cartomancy reading.</p>
+
+
+</body>
+
+</html>
