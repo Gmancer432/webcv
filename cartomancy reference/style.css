@@ -2,3 +2,7 @@
 div, li {
   display: none;
 }
+
+html {
+  font-size: 50px;
+}
