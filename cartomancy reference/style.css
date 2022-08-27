@@ -6,3 +6,8 @@ div, li {
 html {
   font-size: 50px;
 }
+
+select, button {
+  width: 30%;
+  font-size: 50px;
+}
